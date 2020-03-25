@@ -3,7 +3,7 @@ import styled from "styled-components"
 import theme from "../_theme"
 import PhaseBanner from "../PhaseBanner"
 
-import masthead from "./masthead.svg"
+import masthead from "./new-ncc-logo.png"//"./masthead.svg"
 import search from "./search.svg"
 import facebook from "./facebook.svg"
 import twitter from "./twitter.svg"
@@ -156,12 +156,12 @@ const Layout = ({
     <Outer fullPage={fullPage}>
         <Header>
             <HeaderContainer fullPage={fullPage}>
-                <Masthead href="https://buckinghamshire.gov.uk">
-                    <img src={masthead} alt="Buckinghamshire Council"/>
+                <Masthead href="https://www.northamptonshire.gov.uk">
+                    <img src={masthead} alt="Northamptonshire County Council"/>
                 </Masthead>
                 <SearchForm
                     method="get"
-                    action="https://www.buckscc.gov.uk/search"
+                    action="https://www.northamptonshire.gov.uk/search"
                 >
                     <HiddenLabel htmlFor="q">Search query</HiddenLabel>
                     <Input name="q" id="q" required placeholder="Search our websites"/>
@@ -192,7 +192,7 @@ const Layout = ({
                             </SocialLink>
                         </div>
                     </FooterNav>
-                    <CopyrightNotice>© 2019 Buckinghamshire Council</CopyrightNotice>
+                    <CopyrightNotice>© 2020 Northamptonshire County Council</CopyrightNotice>
                 </Container>
             </Footer>
         }
