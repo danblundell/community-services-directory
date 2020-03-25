@@ -4,16 +4,13 @@ import theme from "../_theme"
 import hero from "./hero.jpg"
 
 const Outer = styled.section`
-    background-image: url(${hero});
-    background-size: cover;
-    background-position: center;
-    padding: 200px 15px 10px 15px;
-    margin-bottom: 130px;
+    padding: 30px 15px 10px 15px;
+    margin-bottom: 90px;
     @media screen and (min-width: 600px){
-        padding-top: 250px;
+        padding-top: 30px;
     }
     @media screen and (min-width: 1600px){
-        padding-top: 300px;
+        padding-top: 30px;
     }
 `
 
@@ -89,8 +86,8 @@ const PageHeader = () =>
                     <Breadcrumb><A href="https://www.buckscc.gov.uk">Home</A></Breadcrumb>
                     <Breadcrumb>Directory</Breadcrumb>
                 </Breadcrumbs>
-                <PageTitle>Find activites, groups and services near you</PageTitle>
-                <Lede>Answer a few questions to find support in your area, lots of it free.</Lede>
+                <PageTitle>Get help if you’re staying at home because of coronavirus</PageTitle>
+                <Lede>Use this service to find volunteer groups and other services in your local area who can help you cope.</Lede>
             </Panel>
         </Inner>
     </Outer>
