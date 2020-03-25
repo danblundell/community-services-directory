@@ -60,7 +60,7 @@ const AutocompletePlacesInput = ({
                 onChange={onChange}
                 required
                 id="location"
-                placeholder="eg. HP20 1UA"
+                placeholder="eg. NN1 1ED"
             />
             <input type="hidden" name="lat" value={latLng[0]} readOnly/>
             <input type="hidden" name="lng" value={latLng[1]} readOnly/>

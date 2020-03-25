@@ -22,7 +22,7 @@ const Hint = styled.p`
 const LocationQuestion = ()=>
     <Outer>
         <Label htmlFor="location">Where would you like to search?</Label>
-        <Hint>Enter a Buckinghamshire town or postcode</Hint>
+        <Hint>Enter a Northamptonshire town or postcode</Hint>
         <AutocompletePlacesInput/>
     </Outer>
 
